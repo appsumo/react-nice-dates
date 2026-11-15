@@ -4,7 +4,7 @@
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "unpkg": "build/index.umd.js",
-  "author": "Hernán Sartorio",
+  "author": "Hern\u00e1n Sartorio",
   "license": "MIT",
   "types": "index.d.ts",
   "repository": {
@@ -75,5 +75,8 @@
   },
   "dependencies": {
     "classnames": "^2.2.6"
+  },
+  "resolutions": {
+    "node-forge": "^1.4.1"
   }
 }
